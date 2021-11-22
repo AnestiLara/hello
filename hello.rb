@@ -1,1 +1,2 @@
-print 'Hello, #{ARGV.first}!'
+name = ARGV.first || "World"
+print 'Hello, #{name}!'
